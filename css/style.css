@@ -68,4 +68,14 @@ body {
   background-color: #00447C;
   border: none;
   border-radius: 10px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    scale: 0.97;
+  }
 }
