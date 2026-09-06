@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/InterRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-color: #1E1E1E;
+}
+
+.card {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 16px;
+  padding: 16px 24px 16px 16px;
+  background-color: #1A1D22;
+  border: 1px solid #2A2F37;
+  border-radius: 20px;
+}
+
+.card__image {
+  border-radius: 50%;
+}
+
+.card__body,
+.card__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__body {
+  row-gap: 12px;
+}
+
+.card__info {
+  row-gap: 4px;
+}
+
+.card__name,
+.card__button {
+  color: #F3F4F6;
+}
+
+.card__name {
+  font-size: 20px;
+}
+
+.card__role,
+.card__button {
+  font-size: 14px;
+}
+
+.card__role {
+  color: #9CA3AF;
+}
+
+.card__button {
+  align-self: start;
+  padding: 8px 12px;
+  background-color: #00447C;
+  border: none;
+  border-radius: 10px;
+}
